@@ -12,6 +12,7 @@ import pandas as pd
 dataset = pd.read_csv('drive/MyDrive/Dataset/ECG/EKG.csv')
 dataset.head(10000)
 
+# Import library yang dibutuhkan
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
